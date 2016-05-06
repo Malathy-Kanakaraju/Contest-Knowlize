@@ -1,0 +1,147 @@
+body {
+    font-family: open-sans, sans-serif;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    padding-left: 50px;
+}
+.nav1 > .container-fluid > .collapse > .navbar-nav {
+    padding-top: 20px;
+}
+
+.collapse > .navbar-form {
+    padding: 15px 30px;
+}
+
+.nav1a > li+li {
+    border-left: 1px solid;
+}
+
+.glyphicon-bell,
+.glyphicon-comment,
+.glyphicon-th {
+    font-size: 3rem;
+    padding: 0 35px;
+}
+
+.navbar-nav .glyphicon-user {
+    font-size: 5rem;
+    padding: 0 35px;
+}
+
+.stylish-input-group .input-group-btn{
+    background: white !important; 
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    background:transparent;
+    border: 0;
+}
+
+.nav2 {
+    background-color: #ccc;
+//    border: 1px solid;
+    font-size: 2rem;
+}
+
+
+.nav2 > .container-fluid > .navbar-nav > li > a,
+.nav2 > .container-fluid > .navbar-nav > li > a:hover,
+.nav2 > .container-fluid > .navbar-nav > li > a:focus {
+        color: #ffffff;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+        padding-top: 0;
+        margin: 13px;
+}
+
+.nav2 > .container-fluid > .navbar-nav > li > a:hover,
+.nav2 > .container-fluid > .navbar-nav > li > a:focus {
+    border-bottom: 4px solid #606060;
+}
+
+.qbutton {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #585858 ;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+input[type=checkbox] {
+  /* All browsers except webkit*/
+  transform: scale(2);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(2);
+  background-color: #ffffff;
+}
+
+.db {
+    padding: 10px 5px 10px 30px;
+}
+
+table, th, td {
+    border: 1px solid blue;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+
+.profile {
+    padding: 15px;
+    background-color: #F0F0F0;
+
+}
+
+.col-sm-3 {
+    padding: 0;
+    border: 1px dotted;
+}
+
+.free-plus {
+    background-color: #D0D0D0 ;
+    border: 1px solid;
+}
+
+.free-plus > a {
+    font-size: 10px;
+    color: #000;
+}
+
+.bplus {
+    background-color: gray;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 2px 18px;
+}
+
+.pphoto {
+//    padding: 10px;
+}
+
+.pname {
+    font-size: 2.5rem;
+}
+
