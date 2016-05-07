@@ -52,7 +52,6 @@ body {
 
 .nav2 {
     background-color: #ccc;
-//    border: 1px solid;
     font-size: 2rem;
 }
 
@@ -97,7 +96,6 @@ input[type=checkbox] {
 }
 
 table, th, td {
-    border: 1px solid blue;
     text-align: center;
 }
 
@@ -107,6 +105,13 @@ table {
     border-collapse: separate;
 }
 
+th {
+    font-size: 1.75rem;
+}
+
+table td+td+td+td {
+    font-size: 2.25rem;
+}
 .profile {
     padding: 15px;
     background-color: #F0F0F0;
@@ -115,7 +120,6 @@ table {
 
 .col-sm-3 {
     padding: 0;
-    border: 1px dotted;
 }
 
 .free-plus {
@@ -137,11 +141,25 @@ table {
     padding: 2px 18px;
 }
 
-.pphoto {
-//    padding: 10px;
-}
-
 .pname {
     font-size: 2.5rem;
+}
+
+.glyphicon-question-sign {
+    font-size: 7rem;
+}
+
+.head1 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.question {
+    text-align: left;
+}
+
+.sub-head {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
